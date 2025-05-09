@@ -6,10 +6,10 @@ This repository contains the TikTok upload and publishing component of a larger 
 
 ## Main Features
 
-- 🔹 Initializes direct video publishing to TikTok.
-- 🔹 Uploads video files via the TikTok API.
-- 🔹 Allows optional status checks to monitor the upload and publishing process.
-- 🔹 Designed for integration into larger automation pipelines.
+- Initializes direct video publishing to TikTok.
+- Uploads video files via the TikTok API.
+- Allows optional status checks to monitor the upload and publishing process.
+- Designed for integration into larger automation pipelines.
 
 ## Disclaimer
 
