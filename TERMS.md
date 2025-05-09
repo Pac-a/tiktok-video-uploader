@@ -20,7 +20,7 @@ You are solely responsible for the content you upload and for safeguarding your 
 
 The App collects and stores TikTok access tokens solely for the purpose of authenticating and authorizing video uploads. No additional personal data is collected or stored.
 
-For details on data handling and retention, please refer to the [Privacy Policy](https://terms.peraino.ch/privacy.md).
+For details on data handling and retention, please refer to the [Privacy Policy](https://terms.peraino.ch/PRIVACY).
 
 ## 4. Limitation of Liability
 
