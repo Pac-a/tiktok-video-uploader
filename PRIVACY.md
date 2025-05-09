@@ -30,4 +30,4 @@ We reserve the right to modify this Privacy Policy at any time. Continued use of
 
 ## Contact
 
-For questions regarding this Privacy Policy, please contact: reddit.api.project2025@gmail.com
+For any questions regarding these Terms of Service, please contact: reddit.api.project2025@gmail.com
