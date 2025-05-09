@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OAuth Redirect</title>
+</head>
+<body>
+  <h1>Authorization Complete</h1>
+  <p id="message">Processing...</p>
+
+  <script>
+    // Funzione per ottenere i parametri dalla query string
+    function getQueryParam(param) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(param);
+    }
+
+    const code = getQueryParam('code');
+    const error = getQueryParam('error');
+
+    if (code) {
+      document.getElementById('message').innerHTML = 
+        `<strong>Your authorization code is:</strong><br><code>${code}</code><br><br>Copy this code and paste it into your script.`;
+    } else if (error) {
+      document.getElementById('message').innerHTML = 
+        `An error occurred: <strong>${error}</strong>`;
+    } else {
+      document.getElementById('message').innerText = 
+        'No authorization code found in the URL.';
+    }
+  </script>
+</body>
+</html>
